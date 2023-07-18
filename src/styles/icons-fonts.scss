@@ -1,0 +1,51 @@
+@use './color.scss' as color;
+
+@font-face {
+  font-family: 'map-icons';
+  src:  url('../assets/icons/map-icons.eot?xe5it0');
+  src:  url('../assets/icons/map-icons.eot?xe5it0#iefix') format('embedded-opentype'),
+    url('../assets/icons/map-icons.ttf?xe5it0') format('truetype'),
+    url('../assets/icons/map-icons.woff?xe5it0') format('woff'),
+    url('../assets/icons/map-icons.svg?xe5it0#map-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  font-family: 'map-icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: color.$white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_giraffe:before {
+  content: "\e904";
+}
+.icon_baby:before {
+  content: "\e900";
+}
+.icon_coffee:before {
+  content: "\e901";
+}
+.icon_hospital:before {
+  content: "\e902";
+}
+.icon_basket:before {
+  content: "\e903";
+}
+.icon_lipstick:before {
+  content: "\e905";
+}
+.icon_learn:before {
+  content: "\e906";
+}
+.icon_video-camera:before {
+  content: "\e907";
+}
