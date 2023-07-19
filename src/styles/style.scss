@@ -11,12 +11,23 @@ body {
   background: $white;
 }
 
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
 .title {
   font-family: 'Baron Neue';
   font-size: 36px;
   line-height: 44px;
+  font-weight: 400;
   color: $dark_grey_main;
+
 }
+
 .main {
   display: flex;
   flex-direction: column;
