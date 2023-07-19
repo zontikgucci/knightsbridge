@@ -26,6 +26,10 @@ export const Preview = () => {
                   <h3 className="info__title">10 <span>мин</span></h3>
                   <p className="info__subtitle">До метро Фрунзенская</p>
                 </li>
+                <li className='info__item info__item--hide'>
+                  <h3 className="info__title">2 <span>га</span></h3>
+                  <p className="info__subtitle">Площадь собственного парка</p>
+                </li>
               </ul>
               <p className='preview__text'>
                 Жилой комплекс из&nbsp;четырех клубных домов класса де-люкс в&nbsp;английском стиле, расположенный в&nbsp;собственном парке площадью 3&nbsp;га в&nbsp;районе Хамовники. Авторы интерьеров жилого копмлекса,и дизайна частного парка&nbsp;&mdash; дизайнеры мировой величины. Так, общественные зоны оформляет Дэвид Линли, племянник королевы Великобритании и&nbsp;глава компании LINLEY, а&nbsp;настоящий английский парк для жителей
@@ -51,7 +55,7 @@ export const Preview = () => {
                   <picture className="journal__picture">
                     <img src={journal2} alt="zaglushka" className="journal__image" />
                   </picture>
-                  <p className="journal__text">Типы <br /> планировок апартаментов</p>
+                  <p className="journal__text">Типы планировок апартаментов</p>
                 </a>
               </li>
             </ul>
