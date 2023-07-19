@@ -1,0 +1,19 @@
+
+@media (min-width: 768px) {
+
+  .info {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-right: 110px;
+
+    &__item {
+      margin-bottom: 40px;
+    }
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 4px;
+    }
+  }
+}
+

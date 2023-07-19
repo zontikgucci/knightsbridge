@@ -1,15 +1,34 @@
 @media (min-width: 1280px) {
 
   .preview {
-    &--title {}
+    padding: 67px 0;
+
+    &--title {
+      max-width: 527px;
+      margin-bottom: 58px;
+
+      &.show {
+        display: block;
+      }
+      &.hide {
+        display: none;
+      }
+    }
 
     &__content {
+      padding-top: 76px;
+      padding-bottom: 27px;
+      &::after {
+        height: 100%;
+      }
     }
 
     &__description {
+      margin-bottom: 0;
     }
 
     &__body {
+      margin-bottom: 0;
     }
 
     &__text {
@@ -20,50 +39,22 @@
     }
 
     &__visualization {
+      position: absolute;
+      top: -177px;
+      left: calc(50% + 125px);
+      width: calc(50% - 105px);
+      margin-left: -20px;
+      overflow-x: hidden;
     }
 
     &__picture {
+      max-height: 480px;
+      height: 480px;
     }
 
     &__image {
-    }
-  }
-
-  .info {
-
-    &__item {
-
-      &--hide {
-        display: block;
-      }
-    }
-
-    &__title {
-    }
-
-    &__subtitle {
-    }
-  }
-  .journal {
-
-    &__item {
-
-      
-    }
-
-    &__link {
-    }
-
-    &__picture {
-    }
-
-    &__image {
-    }
-
-    &__text {
-    }
-
-    &__item--bg {
+      max-height: 480px;
+      height: 480px;
     }
   }
 }

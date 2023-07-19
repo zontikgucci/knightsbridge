@@ -29,7 +29,8 @@
     &__text {
       margin-bottom: 0;
       margin-top: -8px;
-      max-width: 319px;
+      max-width: 329px;
+      word-spacing: 3px;
     }
 
     &__more {
@@ -44,39 +45,6 @@
 
     &__image {
       max-height: 478px;
-    }
-  }
-
-  .info {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-right: 110px;
-
-    &__item {
-      margin-bottom: 40px;
-    }
-
-    &__title {
-      font-size: 30px;
-      margin-bottom: 4px;
-    }
-
-  }
-
-  .journal {
-    margin: 0 -15px;
-
-    &__item {
-      min-height: 210px;
-      margin: 0 15px;
-      margin-bottom: 30px;
-    }
-
-    &__text {
-      padding: 0;
-      padding-right: 28px;
-      padding-left: 28px;
-      margin-top: -8px;
     }
   }
 }

@@ -1,0 +1,12 @@
+@media (min-width: 1280px) {
+
+  .info {
+    margin-right: 44px;
+
+    &__title {
+      &--shadow {
+        text-shadow: 0px 4px 4px $shadow;
+      }
+    }
+  }
+}

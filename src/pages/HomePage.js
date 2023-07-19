@@ -2,11 +2,10 @@
 // import { Map } from '../components/Map/Map'
 import { Preview } from '../components/Preview/Preview'
 
-
 export const HomePage = () => {
     return (
       <main className="main">
-        <Preview />
+        <Preview  />
         {/* <Map /> */}
         {/* <Feature /> */}
       </main>

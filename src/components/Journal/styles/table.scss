@@ -1,0 +1,21 @@
+
+@media (min-width: 768px) {
+
+  .journal {
+    margin: 0 -15px;
+
+    &__item {
+      min-height: 210px;
+      margin: 0 15px;
+      margin-bottom: 30px;
+    }
+
+    &__text {
+      padding: 0;
+      padding-right: 28px;
+      padding-left: 28px;
+      margin-top: -8px;
+    }
+  }
+}
+
