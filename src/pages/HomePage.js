@@ -1,12 +1,12 @@
 // import { Feature } from '../components/Feature/Feature'
-// import { Map } from '../components/Map/Map'
+import { ServiceСard } from '../components/ServiceСard/ServiceСard'
 import { Preview } from '../components/Preview/Preview'
 
 export const HomePage = () => {
     return (
       <main className="main">
         <Preview  />
-        {/* <Map /> */}
+        <ServiceСard />
         {/* <Feature /> */}
       </main>
     )

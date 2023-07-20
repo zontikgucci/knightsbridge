@@ -4,7 +4,8 @@
 .preview {
   padding: 26px 0;
   padding-bottom: 12px;
-
+  margin-bottom: 40px;
+  
   &--title {
     font-size: 32px;
     margin-bottom: 40px;
@@ -71,6 +72,6 @@
     width: 100%;
     min-height: 337px;
     object-fit: cover;
-    object-position: bottom;
+    object-position: 35% bottom;
   }
 }
