@@ -1,6 +1,5 @@
 import './servicecard.scss'
-
-
+import { YMaps, Map, Placemark} from '@pbe/react-yandex-maps';
 
 
 
@@ -36,6 +35,11 @@ export const ServiceСard = () => {
             </div>
           </div>
           <div className="map__interactive">
+            <YMaps>
+              <Map defaultState={{ center: [54.30750285562347,48.3679966002379], zoom: 15 }} className="map__interactive">
+                  <Placemark defaultGeometry={[54.30722656193709,48.366667862960405]}/>
+              </Map>
+            </YMaps>
           </div>
         </div>
       </div>
