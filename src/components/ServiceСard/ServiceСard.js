@@ -1,8 +1,5 @@
 import './servicecard.scss'
 
-import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
-import  axios  from 'axios';
-import { useEffect, useState } from 'react';
 
 
 
