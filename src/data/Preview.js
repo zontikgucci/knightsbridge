@@ -20,6 +20,7 @@ export const InfoData = [
     title: '180 - 2048',
     titleAlternative: '156 - 636',
     min: 'м',
+    shadow: true,
     pow: 2,
     subtitle: 'Площадь объектов',
   },
