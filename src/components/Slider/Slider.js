@@ -2,16 +2,20 @@ import './slider.scss'
 import "slick-carousel/slick/slick.css";
 
 import  Sliders from "react-slick";
+import { useMediaQuery } from 'react-responsive'
 
 import { CardData } from '../../data/data'
 
 export const Slider = () => {
+  const isDesktop = useMediaQuery({
+    query: '(min-width: 1280px)'
+  })
 
   const settings = {
     infinite: true,
-    autoplay: true,
+    autoplay: isDesktop,
     autoplaySpeed: 4000,
-    speed: 2000,
+    speed: 500,
     adaptiveHeight: false,
     variableWidth: false,
     swipe: true,
@@ -19,7 +23,7 @@ export const Slider = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide:0,
-    pauseOnHover: true,
+    pauseOnHover: isDesktop,
     responsive: [
       {
         breakpoint: 1280,
