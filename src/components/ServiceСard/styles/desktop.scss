@@ -24,6 +24,9 @@
 		&__link {
       align-self: flex-start;
       margin-bottom: 16px;
+      &:hover {
+        border-color: $borderHoverOrActive;
+      }
 		}
 
 		&__title {

@@ -29,6 +29,11 @@
     align-items: center;
     margin-bottom: 14px;
     overflow: hidden;
+    transition: border $time;
+
+    &:active {
+      border-color: $borderHoverOrActive;
+    }
   }
 
   &__title {
@@ -60,18 +65,3 @@
 [class*=copyrights-pane] {
   display: none !important;
 }
-
-// [class*=placemark-overlay] {
-//   // display: none !important;
-//   position: relative;
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top:0;
-//     left:0;
-//     display: block;
-//     width: 40px;
-//     height: 40px;
-//     background: $border;
-//   }
-// }

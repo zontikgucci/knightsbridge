@@ -9,7 +9,7 @@ export const Sliders = () => {
   const settings = {
     // infinite: true,
     // autoplay: true,
-    // autoplaySpeed: 5000,
+    // autoplaySpeed: 4000,
     // speed: 2000,
     adaptiveHeight: false,
     variableWidth: false,
@@ -49,7 +49,7 @@ export const Sliders = () => {
     <div className='service'>
       <Slider {...settings}>
         {CardData.map(data => (
-          <div className="service__card">
+          <div className="service__card" key={data.id}>
             <p className="service__number">{data.number}</p>
             <h3 className="service__title">{data.title}</h3>
             <p className="service__description">{data.description}</p>

@@ -42,6 +42,27 @@
     color: $medium_dark_red;
     text-transform: none;
     text-decoration: none;
+    align-self: flex-start;
+
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 0;
+      height: 1px;
+      background-color: $medium_dark_red;
+      transition: width $time;
+    }
+
+    &:active {
+      &::before {
+        width: 100%;
+        left: 0;
+      }
+    }
   }
 }
 
@@ -89,9 +110,14 @@
   outline: none;
   border: none;
   background: transparent;
-  border-top: 3px solid #7A1B1B;
-  border-left: 3px solid #7A1B1B;
+  border-top: 3px solid $medium_dark_red;
+  border-left: 3px solid $medium_dark_red;
   border-radius: 2px;
+  transition: border $time;
+
+  &:active {
+    border-color: $mediumDarkRedActive;
+  }
 
   &::before {
     content: "";
