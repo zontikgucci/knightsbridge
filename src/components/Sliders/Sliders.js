@@ -19,25 +19,26 @@ export const Sliders = () => {
     slidesToScroll: 1,
     pauseOnHover: true,
     initialSlide: 0,
-    // nextArrow: ,
-    // prevArrow: ,
     responsive: [
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 2,
+          arrows: true,
         }
       },
       {
         breakpoint: 620,
         settings: {
           slidesToShow: 1,
+          arrows: false,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          arrows: false,
         }
       },
     ]

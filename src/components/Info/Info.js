@@ -11,7 +11,7 @@ export const Info = ({ isDesktop }) => {
         {filteInfo.map(data => (
           <li className='info__item' key={data.id}>
             <h3 className="info__title">
-              { isDesktop ? data.titleAlternative : data.title }
+              { isDesktop && data.titleAlternative  ? data.titleAlternative:  data.title }
               {data.min && data.pow ? (
                 <span>
                   {data.min}<sup>{data.pow}</sup>

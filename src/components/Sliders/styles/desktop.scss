@@ -1,4 +1,31 @@
 @media (min-width: 1280px) {
 
+  .service {
+    &__number {
+      margin-bottom: 21px;
+    }
 
+    &__description {
+      margin-bottom: 26px;
+    }
+  }
+
+
+  .slick-slider {
+    margin: 0 -60px;
+  }
+
+  .slick-slide {
+    margin: 0 60px;
+  }
+
+  .slick-prev, .slick-next {
+    top: -116px;
+    right: 89px;
+  }
+
+  .slick-next {
+    right: 56px;
+  }
 }
+

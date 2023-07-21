@@ -39,7 +39,6 @@
   &__text {
     color: $dark_grey;
     margin-bottom: 35px;
-    word-spacing: 2px;
   }
 
   &__more {
@@ -64,14 +63,16 @@
     display: block;
     line-height: 0;
     width: 100%;
-    min-height: 337px;
+    height: 337px;
     margin-bottom: 14px;
   }
 
   &__image {
     width: 100%;
-    min-height: 337px;
+    height: 337px;
     object-fit: cover;
     object-position: 35% bottom;
   }
 }
+
+

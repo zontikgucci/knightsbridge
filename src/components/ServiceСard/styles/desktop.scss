@@ -1,8 +1,9 @@
 @media (min-width: 1280px) {
   .map {
+    margin-bottom: 84px;
 
     &--title {
-      
+      margin-bottom: 37px;
     }
 
     &__body {
@@ -17,13 +18,16 @@
 		&__response {
       // flex-wrap: nowrap;
       flex-direction: column;
+      margin-bottom: 0;
 		}
 
 		&__link {
       align-self: flex-start;
+      margin-bottom: 16px;
 		}
 
 		&__title {
+      font-size: 11px;
 		}
 
 		&__value {
