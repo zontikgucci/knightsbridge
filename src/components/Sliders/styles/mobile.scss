@@ -1,0 +1,80 @@
+@import '../../../styles/color.scss';
+
+.service {
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__number {
+    font-family: 'Baron Neue';
+    font-size: 100px;
+    font-weight: 700;
+    color: $medium_dark_red;
+    overflow: hidden;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    opacity: .1;
+    margin-left: -8px;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-family: 'Baron Neue';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: $dark_grey;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    color: $dark_grey;
+    margin-bottom: 2px;
+    max-width: 290px;
+    flex: 1 1 auto;
+  }
+
+  &__link {
+    font-weight: 700;
+    color: $medium_dark_red;
+    text-transform: none;
+    text-decoration: none;
+  }
+}
+
+.slick-slider {
+  margin: 0 -42.5px;
+}
+
+.slick-slide {
+  margin: 0 42.5px;
+  height: auto !important;
+}
+
+.slick-list {
+  padding: 0 !important;
+}
+
+.slick-track {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+}
+
+.slick-slide > div {
+  display: flex;
+}
+
+.slick-slide > div .service__card {
+  display: flex !important;
+}
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+}
+
+
