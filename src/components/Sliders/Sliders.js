@@ -2,7 +2,6 @@ import './sliders.scss'
 import { CardData } from '../../data/Feature'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 export const Sliders = () => {
 
@@ -14,11 +13,11 @@ export const Sliders = () => {
     adaptiveHeight: false,
     variableWidth: false,
     swipe: true,
-    centerMode: true,
+    centerMode: false,
     slidesToShow: 3,
     slidesToScroll: 1,
+    initialSlide:0,
     pauseOnHover: true,
-    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1280,
