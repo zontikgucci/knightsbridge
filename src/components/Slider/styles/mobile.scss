@@ -11,7 +11,7 @@
     font-family: 'Baron Neue';
     font-size: 100px;
     font-weight: 700;
-    color: $medium_dark_red;
+    color: $mediumDarkRed;
     overflow: hidden;
     height: 46px;
     display: flex;
@@ -26,12 +26,12 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    color: $dark_grey;
+    color: $darkGrey;
     margin-bottom: 16px;
   }
 
   &__description {
-    color: $dark_grey;
+    color: $darkGrey;
     margin-bottom: 2px;
     max-width: 290px;
     flex: 1 1 auto;
@@ -39,7 +39,7 @@
 
   &__link {
     font-weight: 700;
-    color: $medium_dark_red;
+    color: $mediumDarkRed;
     text-transform: none;
     text-decoration: none;
     align-self: flex-start;
@@ -53,7 +53,7 @@
       right: 0;
       width: 0;
       height: 1px;
-      background-color: $medium_dark_red;
+      background-color: $mediumDarkRed;
       transition: width $time;
     }
 
@@ -110,8 +110,8 @@
   outline: none;
   border: none;
   background: transparent;
-  border-top: 3px solid $medium_dark_red;
-  border-left: 3px solid $medium_dark_red;
+  border-top: 3px solid $mediumDarkRed;
+  border-left: 3px solid $mediumDarkRed;
   border-radius: 2px;
   transition: border $time;
 

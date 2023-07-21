@@ -27,7 +27,7 @@
       width: 100%;
       height: 92%;
       z-index: -1;
-      background: $light_blue;
+      background: $lightBlue;
     }
   }
 
@@ -36,12 +36,12 @@
   }
 
   &__text {
-    color: $dark_grey;
+    color: $darkGrey;
     margin-bottom: 35px;
   }
 
   &__more {
-    color: $medium_dark_red;
+    color: $mediumDarkRed;
     font-family: 'Baron Neue';
     line-height: 19.2px;
     text-decoration: none;
@@ -54,7 +54,7 @@
       left:0;
       width: 100%;
       height: 2px;
-      background: $medium_dark_red;
+      background: $mediumDarkRed;
       transition: color $time;
     }
 

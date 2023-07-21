@@ -8,10 +8,10 @@ import { CardData } from '../../data/data'
 export const Slider = () => {
 
   const settings = {
-    // infinite: true,
-    // autoplay: true,
-    // autoplaySpeed: 4000,
-    // speed: 2000,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 2000,
     adaptiveHeight: false,
     variableWidth: false,
     swipe: true,
