@@ -10,7 +10,8 @@ export const PreviewData = {
   img: zaglushka,
   alt: 'zaglushka',
   width: 688,
-  height: 478
+  height: 478,
+  href: '#!',
 }
 
 
@@ -51,7 +52,8 @@ export const JournalData = [
     img: journal1,
     alt: 'journal',
     width: 168,
-    height: 90
+    height: 90,
+    href: '#!'
   },
   {
     id: 2,
@@ -59,7 +61,84 @@ export const JournalData = [
     img: journal2,
     alt: 'journal',
     width: 232,
-    height: 102
+    height: 102,
+    href: '#!'
   },
+]
 
+
+export const MapDataMainTitle = 'на карте'
+
+export const MapData = [
+  {
+    id: 1,
+    title: 'КРАСОТА И ЗДОРОВЬЕ',
+    count: 7,
+    href: '#!'
+  },
+  {
+    id: 2,
+    title: 'Магазины',
+    count: 7,
+    href: '#!'
+  },
+  {
+    id: 3,
+    title: 'обучение',
+    count: 7,
+    href: '#!'
+  },
+  {
+    id: 4,
+    title: 'детсад',
+    count: 7,
+    href: '#!'
+  },
+  {
+    id: 5,
+    title: 'отдых, развлечения',
+    count: 7,
+    href: '#!'
+  },
+]
+
+
+export const FeatureData = {
+  title: 'особенности работы',
+  subtitle: 'компании Saffari Estate'
+}
+
+export const CardData = [
+  {
+    id: 1,
+    number: '01',
+    title: 'Большая база',
+    description: 'У нас самая большая база актуальных и эксклюзивных объектов элитной недвижимости',
+    link: 'Посмотреть',
+    href: '#!'
+  },
+  {
+    id: 2,
+    number: '02',
+    title: 'надежность',
+    description: 'Мы гарантируем абсолютую безопасность и конфиденциальность по сделкам',
+    link: 'Узнать',
+    href: '#!'
+  },
+  {
+    id: 3,
+    number: '03',
+    title: 'опыт',
+    description: 'Наша команда имеет огромный опыт продаж недвижимости в элитном сегменте',
+    link: 'Изучить',
+    href: '#!'
+  },
+  {
+    id: 4,
+    number: '04',
+    title: 'Закрытые предложения',
+    description: 'Есть объекты, которые предлагаем только мы',
+    link: 'Получить',
+    href: '#!'
+  },
 ]

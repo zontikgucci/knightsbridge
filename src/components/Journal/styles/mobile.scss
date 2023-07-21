@@ -1,6 +1,5 @@
 @import '../../../styles/color.scss';
 
-
 .journal {
   display: flex;
   flex-wrap: wrap;
@@ -29,7 +28,7 @@
     height: 100%;
     cursor: pointer;
     transition: all $time;
-    
+
     &:active {
       transform: scale(1.1);
     }

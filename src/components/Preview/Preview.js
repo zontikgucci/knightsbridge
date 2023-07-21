@@ -1,10 +1,10 @@
 import './preview.scss'
 import { useMediaQuery } from 'react-responsive'
 
+import { PreviewData } from '../../data/data'
+
 import { Info } from '../Info/Info'
 import { Journal } from '../Journal/Journal'
-
-import { PreviewData } from '../../data/Preview'
 
 export const Preview = () => {
 
@@ -16,7 +16,8 @@ export const Preview = () => {
     img,
     alt,
     width,
-    height
+    height,
+    href
   } = PreviewData
 
   const isDesktop = useMediaQuery({
@@ -27,31 +28,33 @@ export const Preview = () => {
     <section className="preview">
       <div className="container">
         <h1 className='title preview--title'>
-          {isDesktop ? titleAlternative : title}
+          { isDesktop ? titleAlternative : title }
         </h1>
       </div>
       <div className="preview__content">
         <div className="container">
           <div className="preview__description">
             <div className="preview__body">
-              <Info
-                isDesktop={ isDesktop }
-              />
-              <p className='preview__text'>{text}</p>
+
+              <Info isDesktop={ isDesktop }/>
+
+              <p className='preview__text'>{ text }</p>
             </div>
-            <a href='#!' className="preview__more">{more}</a>
+            <a href={ href } className="preview__more">{ more }</a>
           </div>
           <div className="preview__visualization">
             <picture className="preview__picture">
               <img
-                src={img}
-                alt={alt}
-                width={width}
-                height={height}
+                src={ img }
+                alt={ alt }
+                width={ width }
+                height={ height }
                 className="preview__image"
               />
             </picture>
+
             <Journal />
+
           </div>
         </div>
       </div>

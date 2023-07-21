@@ -1,6 +1,8 @@
 
 @media (min-width: 768px) {
+
   .service {
+
     &__title {
       font-size: 22px;
       color: $dark_blue_blue;
@@ -10,5 +12,4 @@
       margin-bottom: 22px;
     }
   }
-
 }

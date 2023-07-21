@@ -1,9 +1,11 @@
-import './sliders.scss'
-import { CardData } from '../../data/Feature'
-import Slider from "react-slick";
+import './slider.scss'
 import "slick-carousel/slick/slick.css";
 
-export const Sliders = () => {
+import  Sliders from "react-slick";
+
+import { CardData } from '../../data/data'
+
+export const Slider = () => {
 
   const settings = {
     // infinite: true,
@@ -43,19 +45,18 @@ export const Sliders = () => {
     ]
   }
 
-
   return (
     <div className='service'>
-      <Slider {...settings}>
+      <Sliders { ...settings }>
         {CardData.map(data => (
-          <div className="service__card" key={data.id}>
-            <p className="service__number">{data.number}</p>
-            <h3 className="service__title">{data.title}</h3>
-            <p className="service__description">{data.description}</p>
-            <a href={data.href} className="service__link">{data.link}</a>
+          <div className="service__card" key={ data.id }>
+            <p className="service__number">{ data.number }</p>
+            <h3 className="service__title">{ data.title }</h3>
+            <p className="service__description">{ data.description }</p>
+            <a href={ data.href } className="service__link">{ data.link }</a>
           </div>
         ))}
-      </Slider>
+      </Sliders>
     </div>
   )
 }
